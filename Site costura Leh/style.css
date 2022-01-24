@@ -1,0 +1,168 @@
+
+
+*{
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courgette&family=Great+Vibes&family=Mochiy+Pop+P+One&family=Sedgwick+Ave&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courgette&family=Great+Vibes&family=Mochiy+Pop+P+One&family=Sedgwick+Ave&display=swap');
+
+:root {
+    --cor0: #011C26;
+    --cor1: #024959;
+    --cor2: #04ADBF;
+    --cor3: #037F8C;
+    --cor4: #03A6A6;
+
+    --fonte-titulos: 'Sedgwick Ave', cursive;
+    --fonte-paragrafos: 'Mochiy Pop P One', sans-serif;
+}
+
+header {
+    
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor1));
+    color: rgb(238, 248, 238);
+    
+    
+}
+
+header h1 {
+    font-family: var(--fonte-paragrafos);
+    text-align: center;
+    margin: auto;
+    font-size: 3em;
+    font-weight: bolder;
+    padding-top: 20px;
+    
+
+}
+
+header h4 {
+    font-family: var(--fonte-titulos);
+    text-align: center;
+    margin: auto;
+    font-size: 1.4em;
+    padding: 20px;
+    
+}
+
+nav {
+    text-decoration: none;
+    margin: auto;
+    background-color: var(--cor0);
+    padding: 10px;
+    
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition-duration: 0.6s;
+}
+
+nav a:hover {
+    box-shadow: 3px 3px 1px var(--cor2);
+    background-color: rgba(235, 205, 235, 0.788);
+    color: var(--cor1);
+    
+}
+
+body {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor1));
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    line-height: 1.5em;
+    text-align: justify;
+    text-indent: 30px;
+    
+}
+
+picture > h1 {
+    padding: 20px;
+}
+
+picture >h4 {
+    padding: 20px;
+}
+
+.foto-principal {
+    margin: auto;
+    display: block;
+    width: 50%;
+    padding: 20px;
+}
+
+article {
+    background-color: var(--cor2);
+    text-align: center;
+    border-radius: 15px 0px 15px 0px;
+    min-width: 350px;
+    max-width: 1000px;
+    display: block;
+    font-family: var(--fonte-paragrafos);
+    
+}
+
+article > img {
+    width: 70%;
+}
+
+article > h1 {
+    font-family: var(--fonte-titulos);
+    padding-top: 20px;
+}
+
+article > p{ 
+    font-family: var(--fonte-paragrafos);
+    line-height: 1.4em;
+    text-align: justify;
+    padding: 20px;
+}
+
+aside {
+    padding: 20px;
+}
+
+aside h1 {
+    font-family: var(--fonte-titulos);
+    background-image: linear-gradient(to right, var(--cor4), transparent);
+}
+
+aside p {
+    padding: 10px;
+    line-height: 20px;
+}
+
+aside ul {
+    columns: 2;
+}
+
+div.video {
+    background-color: var(--cor1);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 92%;
+    height: 92%;
+}
+
+footer {
+    background-color: coral;
+    padding: 30px;
+    text-align: center;
+}
